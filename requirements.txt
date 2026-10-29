@@ -1,0 +1,8 @@
+# Dependências do jogo (Python 3.12).
+# pygame-ce: fork mantido do pygame; o import continua "import pygame".
+pygame-ce>=2.5.8,<2.6
+# SDK oficial do Gemini. A Interactions API exige 2.3.0+; o curso foi verificado na 2.33.
+google-genai>=2.33,<3
+python-dotenv>=1.0,<2
+# Lê os mapas do editor Tiled (.tmx). Python puro: roda também no navegador (M10A).
+pytmx>=3.32,<4

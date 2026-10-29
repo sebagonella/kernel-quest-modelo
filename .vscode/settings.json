@@ -1,0 +1,10 @@
+{
+    // Curso RPG Engine: sugestões automáticas de IA desligadas NESTE projeto.
+    // Você está treinando a mão; a IA entra mais tarde, como ferramenta que você revisa.
+    // O chat continua disponível para pedir explicação de conceito e de erro.
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": false
+}

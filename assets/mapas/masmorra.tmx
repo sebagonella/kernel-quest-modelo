@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="17" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="34">
+ <tileset firstgid="1" source="chao.tsx"/>
+ <tileset firstgid="1077" source="arvores.tsx"/>
+ <tileset firstgid="1197" source="relevo.tsx"/>
+ <tileset firstgid="1437" source="grade.tsx"/>
+ <layer id="1" name="chao" width="17" height="13">
+  <data encoding="csv">
+276,276,276,276,276,276,276,276,276,276,279,277,276,276,276,276,276,
+276,276,277,276,276,280,276,276,276,276,276,277,276,276,276,276,276,
+276,276,276,276,277,276,276,276,276,276,278,276,280,276,276,278,276,
+276,279,280,276,278,276,280,276,276,276,276,276,276,280,280,276,279,
+276,278,276,276,276,278,276,276,276,276,276,277,276,276,279,276,276,
+167,167,167,167,167,167,167,167,167,167,167,167,276,276,276,276,276,
+189,189,189,189,189,189,189,189,189,189,189,189,276,276,276,276,276,
+211,211,211,211,211,211,211,211,211,211,211,211,276,277,276,276,276,
+276,277,276,276,276,276,279,276,276,276,276,276,276,276,276,276,276,
+276,276,276,276,276,276,276,276,277,276,276,276,276,276,276,276,276,
+277,276,277,276,276,276,276,276,276,279,278,276,276,276,276,276,276,
+276,276,276,276,276,276,276,276,276,276,279,276,276,276,276,276,276,
+276,276,276,276,276,276,276,276,276,276,277,276,276,276,276,276,276
+</data>
+ </layer>
+ <layer id="2" name="relevo" width="17" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1242,1242,1242,1242,1242,
+0,0,0,0,0,0,0,0,0,0,0,0,1438,1437,1437,1437,1437,
+0,0,0,0,0,0,0,0,0,0,0,0,1439,1437,1437,1437,1437,
+0,0,0,0,0,0,0,0,0,0,0,0,1438,1437,1437,1437,1437,
+0,0,0,0,0,0,0,0,0,0,0,0,1202,1202,1202,1202,1202,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222,
+0,0,0,0,0,0,0,0,0,0,0,0,1221,1222,1222,1222,1222
+</data>
+ </layer>
+ <objectgroup id="3" name="arvores" draworder="topdown">
+  <object id="1" gid="1077" x="0" y="32" width="32" height="32"/>
+  <object id="3" gid="1077" x="0" y="208" width="32" height="32"/>
+  <object id="5" gid="1078" x="32" y="32" width="32" height="32"/>
+  <object id="7" gid="1078" x="32" y="208" width="32" height="32"/>
+  <object id="9" gid="1077" x="64" y="32" width="32" height="32"/>
+  <object id="11" gid="1077" x="64" y="208" width="32" height="32"/>
+  <object id="13" gid="1078" x="96" y="32" width="32" height="32"/>
+  <object id="15" gid="1077" x="96" y="208" width="32" height="32"/>
+  <object id="17" gid="1077" x="128" y="32" width="32" height="32"/>
+  <object id="19" gid="1077" x="128" y="208" width="32" height="32"/>
+  <object id="21" gid="1077" x="160" y="32" width="32" height="32"/>
+  <object id="23" gid="1078" x="160" y="208" width="32" height="32"/>
+  <object id="25" gid="1128" x="48" y="64" width="32" height="32"/>
+  <object id="27" gid="1128" x="128" y="176" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="4" name="colisao" color="#ff4040" opacity="0.6">
+  <object id="2" x="4" y="18" width="24" height="12"/>
+  <object id="4" x="4" y="194" width="24" height="12"/>
+  <object id="6" x="36" y="18" width="24" height="12"/>
+  <object id="8" x="36" y="194" width="24" height="12"/>
+  <object id="10" x="68" y="18" width="24" height="12"/>
+  <object id="12" x="68" y="194" width="24" height="12"/>
+  <object id="14" x="100" y="18" width="24" height="12"/>
+  <object id="16" x="100" y="194" width="24" height="12"/>
+  <object id="18" x="132" y="18" width="24" height="12"/>
+  <object id="20" x="132" y="194" width="24" height="12"/>
+  <object id="22" x="164" y="18" width="24" height="12"/>
+  <object id="24" x="164" y="194" width="24" height="12"/>
+  <object id="26" x="58" y="53" width="12" height="10"/>
+  <object id="28" x="138" y="165" width="12" height="10"/>
+  <object id="29" x="192" y="0" width="80" height="208"/>
+ </objectgroup>
+ <objectgroup id="5" name="portais" color="#40a0ff">
+  <object id="30" x="0" y="80" width="16" height="48"><properties><property name="destino" value="floresta"/></properties></object>
+ </objectgroup>
+ <objectgroup id="6" name="chegadas" color="#ffd700">
+  <object id="31" name="floresta" x="40" y="104"><point/></object>
+ </objectgroup>
+ <objectgroup id="7" name="moedas" color="#ffd700">
+  <object id="32" x="104" y="88"><point/></object>
+  <object id="33" x="168" y="152"><point/></object>
+ </objectgroup>
+</map>
