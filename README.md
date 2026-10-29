@@ -4,6 +4,16 @@ Ponto de partida para quem entra no curso [Kernel Quest](https://github.com/seba
 
 > **Começando do zero?** Não use este modelo: comece pelo M00A. Criar o projeto e o repositório com as próprias mãos é parte do que o M00A e o M00B ensinam, e este modelo já traz as respostas do M00A ao M03B.
 
+## Antes de começar
+
+O que os módulos anteriores ensinam a instalar, e onde está o passo a passo no curso:
+
+- **Python 3.12 e VS Code** com a extensão Python: M00A.
+- **Chave do Gemini** (Google AI Studio), **Git** e **GitHub CLI** autenticado (`gh auth login`): M00B.
+- **Tiled** (editor de mapas): M02C. O M04A em diante pede mudanças nos mapas.
+
+Vale ler os módulos M00A a M03B mesmo sem fazer os passos: o M03C supõe que você conhece o game loop, as cenas, os mapas do Tiled e as camadas Model, View e Controller.
+
 ## Como usar
 
 1. Clique em **"Use this template" > "Create a new repository"**, dê um nome ao repositório (pode ser privado) e clone o seu.
